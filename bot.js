@@ -24,8 +24,8 @@ client.on('message', message => {
   client.user.setActivity(argresult , {type:'LISTENING'});
       message.channel.send(`**تـــ تغيير الحالة ــم   ${argresult}**`)
   } else 
-  if (message.content.startsWith(adminprefix + 'Lst')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/dream");
+  if (message.content.startsWith(adminprefix + 'sets')) {
+    client.user.setGame(argresult, "https://www.twitch.tv/wolfgod1224");
       message.channel.send(`**تـــ تغيير الحالة ــم**`)
   }
   if (message.content.startsWith(adminprefix + 'setname')) {
